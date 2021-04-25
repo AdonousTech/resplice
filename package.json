@@ -1,7 +1,13 @@
 {
   "name": "resplice",
   "private": true,
+  "version": "1.0.0",
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "lerna": "^4.0.0",
+    "ts-jest": "^26.5.5",
+    "typedoc-plugin-lerna-packages": "^0.3.1",
+    "typescript": "^4.2.4"
   }
 }

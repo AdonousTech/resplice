@@ -1,0 +1,39 @@
+{
+  "name": "@adonoustech/resplice-core",
+  "version": "1.0.0",
+  "scripts": {
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:es": "tsc -p tsconfig.es.json",
+    "build": "npm run build:es && npm run build:cjs",
+    "test": "jest"
+  },
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/es/index.js",
+  "types": "./dist/types/index.d.ts",
+  "author": {
+    "name": "Adonous Tech",
+    "url": "https://adonoustech.io"
+  },
+  "description": "The core library for Resplice",
+  "homepage": "https://github.com/AdonousTech/resplice#readme",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "tslib": "^2.2.0"
+  },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdonousTech/resplice.git",
+    "directory": "packages/resplice-core"
+  },
+  "bugs": {
+    "url": "https://github.com/AdonousTech/resplice/issues"
+  }
+}
