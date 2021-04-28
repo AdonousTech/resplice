@@ -2,25 +2,23 @@ import { IOIDCAddressClaim } from "./interfaces/IOIDCAddressClaim";
 
 export abstract class RespliceBaseActor {
 
-    sub: string;
-    name: string;
-    given_name: string;
-    family_name: string;
-    middle_name: string;
-    nickname: string;
-    preferred_username: string;
-    profile: string;
-    picture: string;
-    website: string;
-    email: string;
-    email_verified: boolean;
-    gender: string;
-    birthdate: string;
-    zoneinfo: string;
-    locale: string;
-    phone_number: string;
-    phone_number_verified: boolean;
-    address: IOIDCAddressClaim;
-
-    
+    sub: string | undefined;
+    name: string | undefined;
+    given_name: string | undefined;
+    family_name: string | undefined;
+    middle_name: string | undefined;
+    nickname: string | undefined;
+    preferred_username: string | undefined;
+    profile: string | undefined;
+    picture: string | undefined;
+    website: string | undefined;
+    email: string | undefined;
+    email_verified: boolean | undefined;
+    gender: string | undefined;
+    birthdate: string | undefined;
+    zoneinfo: string | undefined;
+    locale: string | undefined;
+    phone_number: string | undefined;
+    phone_number_verified: boolean | undefined;
+    address: IOIDCAddressClaim | undefined;
 }
