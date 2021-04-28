@@ -1,8 +1,8 @@
 import { RespliceBaseActor } from '@adonoustech/resplice-core';
 export abstract class RespliceBaseLoggerEvent {
-    eventType: 'Auth' | 'Error';
-    internalCode: string;
-    explanation: string;
-    actor: RespliceBaseActor;
-    timestamp: string;
+    eventType: 'Auth' | 'Error' | undefined;
+    internalCode: string | undefined;
+    explanation: string | undefined;
+    actor: RespliceBaseActor | undefined;
+    timestamp: string | undefined;
 }
