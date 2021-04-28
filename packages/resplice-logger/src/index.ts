@@ -3,3 +3,4 @@
  * 
  * @module resplice-logger
 */
+export * from './RespliceBaseLoggerEvent';
