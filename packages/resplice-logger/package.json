@@ -1,6 +1,6 @@
 {
   "name": "@adonoustech/resplice-logger",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
     "build:es": "tsc -p tsconfig.es.json",
@@ -20,7 +20,7 @@
     "typescript": "^4.2.4"
   },
   "dependencies": {
-    "@adonoustech/resplice-core": "^0.1.1",
+    "@adonoustech/resplice-core": "^0.2.0",
     "tslib": "^2.2.0"
   },
   "engines": {
