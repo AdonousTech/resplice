@@ -4,4 +4,6 @@
  * @module resplice-logger
 */
 export * from './RespliceBaseLoggerEvent';
-export * from './Service/RespliceLoggerServiceRequest';
+export * from './RespliceLoggerEventFactory';
+export * from './AWS';
+export * from './Service';

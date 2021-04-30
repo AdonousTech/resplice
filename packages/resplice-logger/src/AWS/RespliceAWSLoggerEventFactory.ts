@@ -17,7 +17,6 @@ export class RespliceAWSLoggerEventFactory extends RespliceLoggerEventFactory {
                 break;
             default:
                 throw new Error(`Logger event type ${loggerEventType} not implemented!`);
-                break;
         }
 
         return created;
