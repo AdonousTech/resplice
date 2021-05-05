@@ -1,7 +1,7 @@
 import { RespliceActorFactory } from "../RespliceActorFactory";
 import { RespliceGCPActor } from "./RespliceGCPActor";
 
-export class RespliceAWSActorFactory extends RespliceActorFactory {
+export class RespliceGCPActorFactory extends RespliceActorFactory {
 
     constructor() {
         super()

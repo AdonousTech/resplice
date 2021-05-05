@@ -1,7 +1,7 @@
 import { RespliceActorFactory } from "../RespliceActorFactory";
 import { RespliceAzureActor } from "./RespliceAzureActor";
 
-export class RespliceAWSActorFactory extends RespliceActorFactory {
+export class RespliceAzureActorFactory extends RespliceActorFactory {
 
     constructor() {
         super()

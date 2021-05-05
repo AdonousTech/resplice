@@ -3,4 +3,5 @@
  * 
  * @module resplice-core
 */
-export * from './ActorFactory/RespliceBaseActor';
+export * from './ActorFactory';
+export * from './ActorInitialization';
