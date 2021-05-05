@@ -1,5 +1,5 @@
 {
-  "name": "@adonoustech/resplice-logger",
+  "name": "@adonoustech/resplice-data",
   "version": "0.2.3",
   "scripts": {
     "build:cjs": "tsc -p tsconfig.cjs.json",
@@ -29,7 +29,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdonousTech/resplice.git",
-    "directory": "packages/resplice-logger"
+    "directory": "packages/resplice-data"
   },
   "bugs": {
     "url": "https://github.com/AdonousTech/resplice/issues"
