@@ -4,7 +4,7 @@ import { RespliceLoggerAWSAuthEvent } from "./RespliceLoggerAWSAuthEvent";
 import { RespliceLoggerAWSErrorEvent } from "./RespliceLoggerAWSErrorEvent";
 
 export class RespliceAWSLoggerEventFactory extends RespliceLoggerEventFactory {
-    createLoggerEvent(loggerEventType: string): RespliceBaseLoggerEvent {
+    static createLoggerEvent(loggerEventType: string): RespliceBaseLoggerEvent {
         
         let created: RespliceBaseLoggerEvent;
 
