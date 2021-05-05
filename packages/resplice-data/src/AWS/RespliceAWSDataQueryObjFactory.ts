@@ -1,21 +1,12 @@
-import { RespliceBaseDataQueryObject } from "../RespliceBaseDataQueryObject";
-import { RespliceDataQueryObjectFactory } from "../RespliceDataQueryObjectFactory";
-import { RespliceAWSDDBQueryObject } from './RespliceAWSDDBQueryObject';
+import { RespliceAWSDDBQueryCommandInputs } from './RespliceAWSDDBQueryCommandInputs';
+import { RespliceAWSBaseDataQueryObject } from './RespliceAWSBaseDataQueryObject';
 
-export class RespliceAWSDataQueryObjFactory extends RespliceDataQueryObjectFactory {
-    static createDataQueryObject(objectType: string): RespliceBaseDataQueryObject {
+export class RespliceAWSDataQueryObjFactory {
+    static createDDBDataQueryObject(payload: RespliceAWSDDBQueryCommandInputs): RespliceAWSBaseDataQueryObject {
 
-        let created: RespliceBaseDataQueryObject;
-
-        switch (objectType) {
-            case 'DynamoDB':
-                created = new RespliceAWSDDBQueryObject();
-                break;
-            default:
-                throw new Error(`Data query object type ${objectType} not implemented!`);
-        }
+        let created: RespliceAWSBaseDataQueryObject;
+        created = payload;
 
         return created;
-
     }
 }
